@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NFC Read Write</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Hello World NFC!</string>
+    <string name="explanation">\nCzekam na Tag...\n\n</string>
+    <string name="oldEntries">\nNo old entries\n</string>
+    <string name="cleanHistory">Clean History</string>
+</resources>

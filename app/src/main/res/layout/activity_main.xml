@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp" >
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:id="@+id/textView_oldEntries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oldEntries" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/button_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/cleanHistory" />
+    </TableRow>
+    <TableRow>
+        <com.everseat.textviewlabel.TextViewLabel
+            android:id="@+id/textView_explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explanation"
+            android:textSize="14sp"
+            android:textColor="#FFF"
+            app:labelColor="@color/colorPrimary"/>
+    </TableRow>
+    </TableLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nfc_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
